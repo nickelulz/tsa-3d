@@ -1,6 +1,12 @@
+#include <SDL2/SDL.h>
+
+#include <stdint.h>
 #include <stdlib.h>
+
+
 #include "gfx.h"
 #include "logger.h"
+#include "models.h"
 
 SDL_Window *window;
 SDL_Renderer *renderer;

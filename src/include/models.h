@@ -2,7 +2,6 @@
 #define MODELS_H
 
 #include "gfx.h"
-#include "small3dlib.h"
 
 extern const uint8_t cityTexture[262144];
 

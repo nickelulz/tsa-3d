@@ -7,7 +7,6 @@
 #include <stdbool.h>
 #include <time.h>
 
-#include "config.h"
 #include "gfx.h"
 #include "logger.h"
 #include "tgc.h"
