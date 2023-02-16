@@ -1,5 +1,4 @@
-#ifndef CITY_TEXTURE_H
-#define CITY_TEXTURE_H
+#include "models.h"
 
 #define CITY_TEXTURE_WIDTH 256
 #define CITY_TEXTURE_HEIGHT 256
@@ -15130,5 +15129,3 @@ const uint8_t cityTexture[262144] = {
 255,0,254,255,255,0,254,255,255,0,254,255,255,0,254,255,255,0,
 254,255,255,0,254,255,255,0,254,255,255,0,
 }; // cityTexture
-
-#endif // guard

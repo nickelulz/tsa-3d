@@ -1,5 +1,4 @@
-#ifndef CITY_MODEL_H
-#define CITY_MODEL_H
+#include "models.h"
 
 #define CITY_VERTEX_COUNT 155
 const S3L_Unit cityVertices[CITY_VERTEX_COUNT * 3] = {
@@ -954,5 +953,3 @@ void cityModelInit(void)
     CITY_TRIANGLE_COUNT,
     &cityModel);
 }
-
-#endif // guard

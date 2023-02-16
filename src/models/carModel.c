@@ -1,5 +1,4 @@
-#ifndef CAR_MODEL_H
-#define CAR_MODEL_H
+#include "models.h"
 
 #define CAR_VERTEX_COUNT 12
 const S3L_Unit carVertices[CAR_VERTEX_COUNT * 3] = {
@@ -100,5 +99,3 @@ void carModelInit(void)
     CAR_TRIANGLE_COUNT,
     &carModel);
 }
-
-#endif // guard
